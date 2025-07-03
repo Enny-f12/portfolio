@@ -5,21 +5,13 @@ import styles from '@/App.module.css';
 
 const PortfolioSection: React.FC = () => {
   const projects = [
-    {
-      id: 1,
-      title: 'HyperChat (Real-time Messaging)',
-      description: 'A real-time messaging application demonstrating user authentication, live chat, and notification integration. Showcases Firebase Firestore for real-time data and Firebase Authentication for user management.',
-      technologies: ['React', 'Next.js', 'Firebase', 'Twilio/OneSignal'],
-      image: 'https://placehold.co/600x350/2d3748/cbd5e0?text=HyperChat+Screenshot',
-      liveLink: '#', // Replace with actual link
-      githubLink: '#', // Replace with actual link
-    },
+
     {
       id: 2,
-      title: 'FettyExchange (Crypto exchange Landing page)',
-      description: 'All-in-one digital marketplace for crypto and more!',
+      title: 'FettyExchange (Crypto exchange)',
+      description: 'All-in-one digital marketplace for crypto and more! A versatile digital platform designed to simplify cryptocurrency and digital service transactions. It enables users to quickly buy, sell, and convert crypto into cash or other currencies with low fees.',
       technologies: ['Html', 'JavaScript', 'CSS', 'mediaqueries'],
-      image: 'https://placehold.co/600x350/2d3748/cbd5e0?text=Hyperbuds+Screenshot',
+      image: '/fetty.jpg',
       liveLink: 'https://fettyexchange.com/', // Replace with actual link
       githubLink: 'https://github.com/Enny-f12/fettywebsite.git', // Replace with actual link
     },
@@ -28,17 +20,26 @@ const PortfolioSection: React.FC = () => {
       title: 'Image Gallery (Pexels API)',
       description: 'An interactive image gallery consuming the Pexels API, featuring search, lazy loading, and responsive design. Demonstrates API integration and efficient data fetching.',
       technologies: ['React', 'API Integration', 'TypeScript', 'Frontend State Mgmt'],
-      image: 'https://placehold.co/600x350/2d3748/cbd5e0?text=Image+Gallery+Screenshot',
+      image: '/imageapp.jpg',
       liveLink: 'https://gilded-dolphin-d76644.netlify.app/', // Replace with actual link
       githubLink: 'https://github.com/DesignguyLTD/imageapp-ennyf12.git', // Replace with actual link
     },
     {
       id: 4,
       title: 'Famtech (Agricultural Saas Platform)',
-      description: 'A visually compelling and responsive e-commerce product detail page, focusing on clean UI/UX, interactive elements, and modern CSS techniques.',
+      description: 'A platform aimed to revolutionize agriculture by integrating technology with traditional farming. The platform provides farmers with simpler, smarter tools to monitor, manage, and optimize their operations, ensuring more effective agricultural practices.',
       technologies: ['HTML', 'CSS', 'Responsive Design', 'JavaScript'],
-      image: 'https://placehold.co/600x350/2d3748/cbd5e0?text=Product+Page+Screenshot',
+      image: '/famtech.jpg',
       liveLink: 'https://famtech.netlify.app/', 
+      githubLink: 'https://github.com/Enny-f12/famtech.git', // Replace with actual link
+    },
+     {
+      id: 1,
+      title: 'Hyperbuds (Creative collaboration using AI)',
+      description: ' A unified platform for creators to brainstorm, plan, and publish content collaboratively, addressing the fragmented creator landscape. Its AI-powered workflow provides smart suggestions and templates, eliminating inefficient manual collaboration discovery.',
+      technologies: ['HTML', 'CSS', 'Responsive Design', 'JavaScript'],
+      image: '/hyperbus.jpg',
+      liveLink: 'https://gilded-dolphin-d76644.netlify.app/', 
       githubLink: 'https://github.com/Enny-f12/famtech.git', // Replace with actual link
     },
   ];

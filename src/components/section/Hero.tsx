@@ -1,7 +1,7 @@
 
 import React from 'react';
 import styles from '@/App.module.css'; 
-
+import Image from 'next/image';
 
 
 const HeroSection: React.FC = () => {
@@ -17,13 +17,15 @@ const HeroSection: React.FC = () => {
           </p>
           <div className={styles.heroButtons}>
             <a href="#portfolio" className={styles.primaryButton}>View My Work</a>
-            <a href="#contact" className={styles.secondaryButton}>Get In Touch</a>
+            <a href="https://wa.me/7015297437" className={styles.secondaryButton}>Get In Touch</a>
           </div>
         </div>
         <div className={styles.heroImageContainer}>
-          <img
-            src="https://placehold.co/400x400/2d3748/cbd5e0?text=Developer+Illustration"
+          <Image
+            src="/esther.jpg"
             alt="Developer Illustration"
+            width={1080}
+            height={1013}
             className={styles.heroImage}
           />
         </div>
