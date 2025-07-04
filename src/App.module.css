@@ -549,10 +549,12 @@
   font-weight: 600;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   text-align: center;
+  align-items: center;
   text-decoration: none;
   transition-property: background-color, color, border-color, box-shadow;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
+  justify-content: center;
 }
 
 .primaryButton {
@@ -568,6 +570,8 @@
   background-color: transparent;
   border: 2px solid #63b3ed;
   color: #63b3ed;
+  text-align: center;
+  align-items: center;
 }
 
 .secondaryButton:hover {
@@ -661,4 +665,104 @@
 .downloadButton:hover {
   background-color: #4299e1;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+
+/*contact*/
+/* src/components/ContactSection/ContactSection.module.css */
+
+.contactSection {
+  background-color: #1a202c;
+  padding: 4rem 1.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 72rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .contactSection {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+.sectionHeading {
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #90cdf4;
+}
+
+.subheading {
+  font-size: 1.125rem;
+  color: #cbd5e0;
+  margin-bottom: 3rem;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.contactLinksContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 640px) {
+  .contactLinksContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.contactLinkCard {
+  background-color: #2d3748;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  flex: 1 1 calc(50% - 1.5rem);
+  min-width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.contactLinkCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  background-color: #3b4555;
+  border-color: #63b3ed;
+}
+
+.contactIcon {
+  font-size: 3rem;
+  color: #90cdf4;
+  margin-bottom: 1rem;
+}
+
+.contactText {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.contactDetail {
+  font-size: 0.875rem;
+  color: #a0aec0;
 }
