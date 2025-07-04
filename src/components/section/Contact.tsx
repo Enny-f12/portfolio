@@ -5,11 +5,7 @@ import styles from '@/App.module.css';
 
 import { FaEnvelope, FaWhatsapp, FaGithub } from 'react-icons/fa'; 
 
-interface ContactSectionProps {
-  yourEmail: string;
-  yourWhatsappNumber: string; 
-  yourGithubProfile: string; 
-}
+
 
 const ContactSection: React.FC = () => {
   return (

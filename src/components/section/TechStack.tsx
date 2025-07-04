@@ -21,9 +21,12 @@ const TechStackSection: React.FC = () => {
     <section id="stack" className={styles.techStackSection}>
       <h2 className={styles.sectionHeading}>My Tech Stack</h2>
       <div className={styles.techGrid}>
-        {techStack.map((tech) => (
-          <div key={tech.name} className={styles.techCard}>
-            <img src={tech.img} alt={tech.name} className={styles.techIcon} />
+        {techStack.map((tech, index) => ( // Added 'index' here
+          <div key={index} className={styles.techCard}> {/* Used 'index' for key */}
+            <img src={tech.img}
+              alt={tech.name} 
+              
+              className={styles.techIcon} />
             <span className={styles.techName}>{tech.name}</span>
           </div>
         ))}

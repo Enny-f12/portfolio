@@ -10,7 +10,7 @@ const HeroSection: React.FC = () => {
       <div className={styles.heroContentWrapper}>
         <div className={styles.heroTextContainer}>
           <h1 className={styles.heroHeading}>
-            Hi, I'm <span className={styles.highlightText}>Esther Alayande</span>
+            Hi, I&apos;m <span className={styles.highlightText}>Esther Alayande</span>
           </h1>
           <p className={styles.heroSubheading}>
             A passionate <span className={styles.highlightTextBold}>Frontend Developer and UI/UX Designer</span> building engaging and accessible web experiences.

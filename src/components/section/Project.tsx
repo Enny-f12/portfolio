@@ -1,12 +1,10 @@
 // src/components/PortfolioSection/PortfolioSection.tsx
 import React from 'react';
 import styles from '@/App.module.css'; // Import the CSS Module
+import Image from 'next/image';
 
-interface PortfolioSectionProps {
-  // Define any props if needed
-}
 
-const PortfolioSection: React.FC<PortfolioSectionProps> = () => {
+const PortfolioSection: React.FC = () => {
   const projects = [
     {
       id: 1,
@@ -55,7 +53,11 @@ const PortfolioSection: React.FC<PortfolioSectionProps> = () => {
         {projects.map((project) => (
           <div key={project.id} className={styles.projectCard}>
            
-            <img src={project.image} alt={project.title} className={styles.projectImage} />
+            <Image src={project.image} 
+            alt={project.title}
+            width={1058}
+            height={481}
+             className={styles.projectImage} />
             <h3 className={styles.projectTitle}>{project.title}</h3>
             <p className={styles.projectDescription}>{project.description}</p>
             <div className={styles.techTags}>

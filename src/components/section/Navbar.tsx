@@ -4,11 +4,9 @@ import styles from '@/App.module.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 
-interface NavbarProps {
-  // Define any props if needed, e.g., userName: string;
-}
 
-const Navbar: React.FC<NavbarProps> = () => {
+
+const Navbar: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
