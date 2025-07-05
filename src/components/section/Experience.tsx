@@ -28,7 +28,7 @@ const ResumeExperienceSection: React.FC = () => {
 
 
         <div className={styles.downloadResumeContainer}>
-          <a href='#' target="_blank" rel="noopener noreferrer" className={styles.downloadButton}>
+          <a href='/e.pdf' target="_blank" rel="noopener noreferrer" className={styles.downloadButton}>
             Download My Resume (PDF)
           </a>
         </div>
