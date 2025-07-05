@@ -27,7 +27,7 @@ const TechStackSection: React.FC = () => {
               alt={tech.name} 
               
               className={styles.techIcon} />
-            <span className={styles.techName}>{tech.name}</span>
+            
           </div>
         ))}
       </div>
