@@ -19,14 +19,14 @@ const ContactSection: React.FC = () => {
         <a href={`mailto:alayandeesther469@gmail.com`} className={styles.contactLinkCard} target="_blank" rel="noopener noreferrer">
           <FaEnvelope className={styles.contactIcon} />
           <span className={styles.contactText}>Email Me</span>
-          <span className={styles.contactDetail}>alayandeesther469@gmail.com</span>
+          <span className={styles.contactDetail}></span>
         </a>
 
         {/* WhatsApp Link */}
         <a href={`https://wa.me/7015297437`} className={styles.contactLinkCard} target="_blank" rel="noopener noreferrer">
           <FaWhatsapp className={styles.contactIcon} />
           <span className={styles.contactText}>Message on WhatsApp</span>
-          <span className={styles.contactDetail}>07015297437</span>
+          <span className={styles.contactDetail}></span>
         </a>
 
         {/* NEW: GitHub Profile Link */}

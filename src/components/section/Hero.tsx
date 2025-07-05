@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
           </p>
           <div className={styles.heroButtons}>
             <a href="#portfolio" className={styles.primaryButton}>View My Work</a>
-            <a href="https://wa.me/7015297437" className={styles.secondaryButton}>Get In Touch</a>
+            <a href="alayandeesther469@gmail.com" className={styles.secondaryButton}>Get In Touch</a>
           </div>
         </div>
         <div className={styles.heroImageContainer}>
