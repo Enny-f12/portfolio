@@ -6,15 +6,12 @@ const AboutMeSection: React.FC = () => {
     <section id="about" className={styles.aboutSection}>
       <h2 className={styles.sectionHeading}>About Me</h2>
       <div className={styles.contentContainer}>
-        <p className={styles.paragraph}>
-          I am a dedicated Frontend Developer with a strong passion for creating intuitive, dynamic, and visually appealing web applications. My journey into web development began with a fascination for how digital experiences come to life, evolving into a commitment to crafting user-centric interfaces.
-        </p>
-        <p className={styles.paragraph}>
-          I thrive on solving complex problems and transforming ideas into robust code. My expertise lies in building responsive and performant applications, ensuring a seamless experience across various devices and browsers. I am constantly exploring new technologies and best practices to stay at the forefront of the ever-evolving web landscape.
-        </p>
-        <p className={styles.paragraphLast}>
-          Outside of coding, I enjoy solving puzzles, singing, traveling, doing chores, exploring new design trends, contributing to projects which further fuels my creativity and problem-solving skills. I am eager to contribute my skills to impactful projects and collaborate with innovative teams.
-        </p>
+       <p className={styles.paragraph}>
+  As a Frontend Developer, I specialize in building intuitive, responsive, and performant web applications. I enjoy transforming complex problems into user-centric interfaces that provide a seamless experience across all devices and browsers.
+</p>
+<p className={styles.paragraphLast}>
+  I am a dedicated learner, constantly exploring new technologies to stay at the forefront of web development. I am eager to contribute my skills to impactful projects and collaborate with an innovative team.
+</p>
       </div>
     </section>
   );

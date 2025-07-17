@@ -138,7 +138,7 @@
     padding-top: 8rem;
     padding-left: 5rem;
     padding-right: 5rem;
-    min-height:75vh
+    min-height:100vh;
   }
 }
 
@@ -316,6 +316,8 @@
     padding-right: 4rem;
      margin-left: auto;
   margin-right: auto;
+   margin-top: 8rem;
+  margin-bottom: 8rem;
   }
 }
 
@@ -355,13 +357,19 @@
 
 .techStackSection {
   padding: 4rem 1.5rem;
+ 
 }
 
 @media (min-width: 768px) {
   .techStackSection {
     padding-left: 4rem;
     padding-right: 4rem;
+     margin-bottom: 8rem;
   }
+     .sectionHeading{
+         margin-bottom: 5rem;
+     }
+  
 }
 
 .sectionHeading {
@@ -442,6 +450,7 @@
     padding-left: 4rem;
     padding-right: 4rem;
     margin: auto;
+    margin-bottom:8rem;
   }
 }
 
@@ -604,6 +613,7 @@
   .resumeSection {
     padding-left: 4rem;
     padding-right: 4rem;
+    margin-bottom: 8rem;
   }
 }
 
