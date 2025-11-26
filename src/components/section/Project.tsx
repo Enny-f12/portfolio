@@ -22,7 +22,7 @@ const PortfolioSection: React.FC = () => {
       description: 'All-in-one digital marketplace for crypto and more! A versatile digital platform designed to simplify cryptocurrency and digital service transactions. It enables users to quickly buy, sell, and convert crypto into cash or other currencies with low fees.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
       image: '/fetty.jpg',
-      liveLink: 'https://fettyexchange.com/',
+      liveLink: 'https://fettyexchange.netlify.app/',
       githubLink: 'https://github.com/Enny-f12/fettywebsite.git',
     },
     {
@@ -42,6 +42,15 @@ const PortfolioSection: React.FC = () => {
       image: '/famtech.jpg',
       liveLink: 'https://famtech.netlify.app/',
       githubLink: 'https://github.com/Enny-f12/famtech.git',
+    },
+    {
+      id: 5,
+      title: 'Chrivon (Agricultural SaaS Platform)',
+      description: 'an innovative SaaS startup focused on simplifying business operations with intuitive software solutions. Their approach enhances productivity and fosters long-term success in a dynamic business environment. We deliver scalable, efficient, and user-friendly technologies that meet modern business needs.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+      image: '/chrivon.jpg',
+      liveLink: 'https://cpfss.netlify.app/',
+      githubLink: 'https://github.com/Enny-f12/CPFSS.git',
     },
     // Removed the separate Figma design project
   ];

@@ -10,10 +10,10 @@ const TechStackSection: React.FC = () => {
     { name: 'React', img: 'https://placehold.co/64x64/000000/61DAFB?text=React' },
     { name: 'Next.js', img: 'https://placehold.co/64x64/000000/E9D5FF?text=Next' },
     { name: 'Tailwind CSS', img: 'https://placehold.co/64x64/0F172A/06B6D4?text=Tailwind' },
-    { name: 'Node.js', img: 'https://placehold.co/64x64/43853d/ffffff?text=Node' },
-    { name: 'Firebase', img: 'https://placehold.co/64x64/FBC02D/ffffff?text=Fire' },
+   { name: 'JavaScript', img: 'https://placehold.co/64x64/f7df1e/000000?text=JS' },
+   { name: 'CSS', img: 'https://placehold.co/64x64/264de4/ffffff?text=CSS' },
     { name: 'Git', img: 'https://placehold.co/64x64/239120/ffffff?text=Git' },
-    { name: 'HTML/CSS', img: 'https://placehold.co/64x64/9B2C2C/ffffff?text=HTML' },
+    { name: 'HTML', img: 'https://placehold.co/64x64/9B2C2C/ffffff?text=HTML' },
     
   ];
 
