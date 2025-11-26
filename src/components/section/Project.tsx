@@ -45,8 +45,8 @@ const PortfolioSection: React.FC = () => {
     },
     {
       id: 5,
-      title: 'Chrivon (Agricultural SaaS Platform)',
-      description: 'an innovative SaaS startup focused on simplifying business operations with intuitive software solutions. Their approach enhances productivity and fosters long-term success in a dynamic business environment. We deliver scalable, efficient, and user-friendly technologies that meet modern business needs.',
+      title: 'Chrivon (Business SaaS Platform)',
+      description: 'An innovative SaaS startup focused on simplifying business operations with intuitive software solutions. Their approach enhances productivity and fosters long-term success in a dynamic business environment. We deliver scalable, efficient, and user-friendly technologies that meet modern business needs.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
       image: '/chrivon.jpg',
       liveLink: 'https://cpfss.netlify.app/',
