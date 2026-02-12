@@ -17,8 +17,8 @@ const ResumeExperienceSection: React.FC = () => {
           <ul className={styles.entryList}>
             {/* Incorporated experience with React, collaboration, landing pages, and specific tools */}
             <li><b>Architected and deployed</b> high-performance, responsive web applications and engaging landing pages, significantly enhancing user experience and conversion rates.</li>
-            <li><b>Spearheaded seamless integration</b> with diverse backend RESTful APIs, optimizing data flow and ensuring robust communication between frontend and server-side systems.</li>
-            <li><b>Championed cross-functional collaboration</b> with both frontend and backend development teams, design, and product, fostering efficient workflows and delivering cohesive solutions.</li>
+            <li><b>Seamless integration</b> with diverse backend RESTful APIs, optimizing data flow and ensuring robust communication between frontend and server-side systems.</li>
+            <li><b>Cross-functional collaboration</b> with both frontend and backend development teams, design, and product, fostering efficient workflows and delivering cohesive solutions.</li>
             <li><b>Leveraged cutting-edge build tools</b> including <b>Vite</b> and <b>Next.js</b> to establish highly optimized development environments and accelerate application build/deployment cycles.</li>
             <li><b>Implemented scalable user authentication and real-time data solutions</b> by integrating <b>Firebase</b> services (Auth, Firestore) into core application features.</li>
             <li><b>Managed comprehensive version control</b> using <b>Git</b>, contributing to over several feature branches and successfully resolving complex merge conflicts in collaborative environments.</li>
