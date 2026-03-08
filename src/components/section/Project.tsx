@@ -6,16 +6,7 @@ import Image from 'next/image';
 
 const PortfolioSection: React.FC = () => {
   const projects = [
-    {
-      id: 1,
-      title: 'Hyperbuds (Creative collaboration using AI)',
-      description: 'A unified platform for creators to brainstorm, plan, and publish content collaboratively, addressing the fragmented creator landscape. Its AI-powered workflow provides smart suggestions and templates, eliminating inefficient manual collaboration discovery.',
-      technologies: ['React', 'Next.js', 'Firebase', 'Tailwind CSS', 'Figma'], 
-      image: '/hyperbus.jpg', 
-      liveLink: 'https://admirable-custard-ccb42e.netlify.app/', 
-      githubLink: 'https://github.com/Enny-f12/project.git',
-      figmaLink: 'https://www.figma.com/design/KKhxWICO1IDWNHLXd0OZrT/HyperBuds?node-id=0-1&t=SUGwE8OEIcZnvY52-1', 
-    },
+   
     {
       id: 2,
       title: 'FettyExchange (Crypto Exchange)',
@@ -43,15 +34,7 @@ const PortfolioSection: React.FC = () => {
       liveLink: 'https://famtech.netlify.app/',
       githubLink: 'https://github.com/Enny-f12/famtech.git',
     },
-    {
-      id: 5,
-      title: 'Chrivon (Business SaaS Platform)',
-      description: 'An innovative SaaS startup focused on simplifying business operations with intuitive software solutions. Their approach enhances productivity and fosters long-term success in a dynamic business environment. We deliver scalable, efficient, and user-friendly technologies that meet modern business needs.',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
-      image: '/chrivon.jpg',
-      liveLink: 'https://cpfss.netlify.app/',
-      githubLink: 'https://github.com/Enny-f12/CPFSS.git',
-    },
+   
     // Removed the separate Figma design project
   ];
 
@@ -87,12 +70,12 @@ const PortfolioSection: React.FC = () => {
                   GitHub Code
                 </a>
               )}
-              {/* NEW: Conditionally render Figma button if project has a figmaLink */}
+              {/* NEW: Conditionally render Figma button if project has a figmaLink 
               {project.figmaLink && (
                 <a href={project.figmaLink} target="_blank" rel="noopener noreferrer" className={styles.secondaryButton}>
                   View Design
                 </a>
-              )}
+              )} */}
             </div>
           </div>
         ))}
